@@ -4,7 +4,7 @@ library(datasets)
 library(plyr)
 
 #PDSI CALCULATIONS
-All_data <- read.csv("Climate_Lat_PET_AWC.csv")
+All_data <- read.csv("https://raw.githubusercontent.com/gbream/MS_Research/main/Climate_Lat_PET_AWC.csv")
 
 #Splitting into object by Site_ID
 Split_all_data <- split(All_data, All_data$Site_ID)
